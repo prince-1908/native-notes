@@ -4,13 +4,13 @@ export default function RootLayout() {
   return <Stack
     screenOptions={{
       headerStyle: {
-        backgroundColor: "blue"
+        backgroundColor: "#6fc7ba"
       },
       headerTitleStyle: {
-        color: "white"
+        color: "black"
       },
       headerTitleAlign: "center",
-      headerTintColor:"white"
+      headerTintColor:"black"
     }}
   >
     <Stack.Screen name="index" options={{ title: "Home" }} />

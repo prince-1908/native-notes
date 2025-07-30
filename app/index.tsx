@@ -33,19 +33,19 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent:"center",
-    backgroundColor:"black",
+    backgroundColor:"#f8f8f8",
     paddingHorizontal:37
   },
   title:{
-    color:"white",
+    color:"black",
     fontSize:100,
     fontWeight:"900"
   },
   subtitle:{
-    color:"white"
+    color:"black"
   },
   btnText:{
-    color:"white",
+    color:"black",
     fontSize:24,
     textAlign:'center'
   },
@@ -54,8 +54,10 @@ const styles = StyleSheet.create({
     height:120
   },
   button:{
-    backgroundColor:"blue",
+    backgroundColor:"#6fc7ba",
     width:"100%",
+    borderWidth:2,
+    borderColor:"black",
     paddingVertical:10,
     top:20,
     borderRadius:16
